@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Richard Andronache WebSite</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div class="wrapper clearfix">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="start_stop.php">Start/Stop</a>
+				</li>
+				<li class="selected">
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="contact" class="wrapper clearfix">
+			<div id="sidebar">
+				<ul>
+					<li>
+						<a href="control.php"><img src="images/Control.jpg" alt="Img" height="154" width="213"></a>
+					</li>
+					<li>
+						<a href="documents/proiect.pdf" target="_blank"><img src="images/Placa_Dezvoltare.jpg" alt="Img" height="154" width="213"></a>
+					</li>
+				</ul>
+				<div class="click-here">
+					<h1>Download program</h1>
+					<a href="documents/documents.rar" class="btn1">Click aici !</a>
+				</div>
+			</div>
+			<div class="main">
+				<h1>Transmite un mesaj</h1>
+				<form action="index.html" method="post">
+					<ul>
+						<li>
+							<label>Introduceti numele</label>
+							<input type="text" value="Nume si Prenume" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						</li>
+						<li>
+							<label>Introduceti adresa de email</label>
+							<input type="text" value="Email" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						</li>
+						<li>
+							<label>Introduceti subiectul mesajului</label>
+							<input type="text" value="Subiect" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						</li>
+						<li>
+							<label class="msg">Introduceti mesajul</label>
+							<textarea onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">Mesaj</textarea>
+							<div class="checkbox">
+								<label for="terms">
+									<input type="checkbox" id="terms">
+									Sunt de acord cu termenii si conditiile</label>
+							</div>
+							<input type="submit" value="Transmite" class="btn3">
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<ul id="featured" class="wrapper clearfix">
+			<li>
+				<img src="images/Control.jpg" alt="Img" height="180" width="220">
+				<h3><a href="control.php">Control</a></h3>
+				<p>
+					Interfata de control este realizata in HTML cu PHP. Se utilizeaza o structura de
+					cadru inspirata din protocolul MBUS.
+				</p>
+			</li>
+			<li>
+				<img src="images/Hardware.jpg" alt="Img" height="180" width="220">
+				<h3><a href="documents/Hardware.pdf" target="_blank">Hardware</a></h3>
+				<p>
+					Arduino Uno, senzori de temperatura, fum, alcool si giroscop.
+					Bluetooth cu parametrii 9600,8,1,N.
+				</p>
+			</li>
+			<li>
+				<img src="images/Software.jpg" alt="Img" height="180" width="220">
+				<h3><a href="documents/Software.pdf" target="_blank">Software</a></h3>
+				<p>
+					Programe pentru Arduino Uno. Interfata HTML si PHP. Baza de date mySQL in
+					root localhost.
+				</p>
+			</li>
+			<li>
+				<img src="images/Placa_Dezvoltare.jpg" alt="Img" height="180" width="220">
+				<h3><a href="documents/Proiect.pdf" target="_blank">Proiectul meu</a></h3>
+				<p>
+					O buna metoda de a invata electronica si a pune in practica cunostintele 
+					de informatica din liceu.
+				</p>
+			</li>
+		</ul>
+		<div class="body">
+			<div class="wrapper clearfix">
+				<div id="links">
+					<div>
+						<h4>Social</h4>
+						<ul>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank">Google +</a>
+							</li>
+						</ul>
+					</div>
+			<div class="wrapper clearfix">
+				<div id="links">
+					<div>
+						<h4></h4>
+						<ul>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank">Facebook</a>
+							</li>
+						</ul>
+					</div>
+			<div class="wrapper clearfix">
+				<div id="links">
+					<div>
+						<h4></h4>
+						<ul>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Youtube</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="footnote">
+					© Copyright © 2016.Richard Andronache
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
